@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MindEase",
+    "slug": "MindEase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brain-shield-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/brain-shield-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001A33"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brain-shield-icon.png",
+        "backgroundColor": "#001A33"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.pirrotan.MindEase"
+    },
+    "web": {
+      "favicon": "./assets/brain-shield-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66204efc-28eb-4e0b-a1ac-353680d14340"
+      }
+    }
+  }
+}
